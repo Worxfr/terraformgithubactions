@@ -4,6 +4,9 @@ provider "aws" {
     region = "eu-west-3"
 }
 
+terraform {
+    backend "local" {}
+}
 
 
 resource "aws_vpc" "main" {
