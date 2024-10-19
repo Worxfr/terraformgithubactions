@@ -45,7 +45,7 @@ You need to create an "Production" environnement in your repo, and then configur
   - `AWS_REGION`: The AWS region for VPC deployment and testing
   - `TFSTATE_BUCKET`: S3 bucket name for storing Terraform state
   - `TFSTATE_KEY`: S3 object key for the Terraform state file
-  - `TFSTATE_REGION`: AWS region where the S3 bucket is located
+  - `TFSTATE_REGION`: AWS region where the S3 bucket for the Terraform state file is located
 
 ## OpenID Connect (OIDC) Configuration
 
