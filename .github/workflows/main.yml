@@ -37,6 +37,7 @@ jobs:
         with:
           auto_approve: true
           backend_config: |
+            backend="s3"
             bucket=${{ vars.TFSTATE_BUCKET }}
             key=${{ vars.TFSTATE_KEY }}
             region=${{ vars.TFSTATE_REGION }}
@@ -45,6 +46,7 @@ jobs:
         with:
           auto_approve: true
           backend_config: |
+            backend="s3"
             bucket=${{ vars.TFSTATE_BUCKET }}
             key=${{ vars.TFSTATE_KEY }}
             region=${{ vars.TFSTATE_REGION }}
