@@ -3,7 +3,7 @@
 This project automates AWS infrastructure deployment and testing using Terraform and GitHub Actions, leveraging OpenID Connect (OIDC) for secure authentication between GitHub and AWS.
 
 > [!WARNING]  
-> ## ⚠️ Important Disclaimer
+> ## Important Disclaimer
 >
 > **This project is for testing and demonstration purposes only.**
 >
